@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+.brand-logo img{
+  height: 56px;
+}
+
+nav{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+h1{
+  text-transform: uppercase;
+  margin-top: 200px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 200px;
+}
+
+h3{
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.infos p{
+  text-align: justify;
+}
+
+.mb0{
+  margin-bottom: 0;
+}
+
+.carousel.carousel-slider .carousel-fixed-item.with-indicators{
+  bottom: auto;
+  top: 60px;
+}
+
+.carousel.carousel-slider{
+  height: 600px;
+}
+
+.carousel-item{
+  background-size: cover;
+  height: 600px;
+}
+
+.item-1{
+  background-image: url("../img/gameplay1.png");
+}
+.item-2{
+  background-image: url("../img/gameplay2.jpg");
+}
+.item-3{
+  background-image: url("../img/gameplay3.webp");
+}
+.item-4{
+  background-image: url("../img/gameplay4.jpg");
+}
