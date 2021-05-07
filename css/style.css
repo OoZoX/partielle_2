@@ -12,6 +12,14 @@ nav{
   z-index: 9999;
 }
 
+nav.color-navbar{
+  background-color: #ff4656;
+}
+
+.sidenav#mobile-demo{
+  z-index: 10000;
+}
+
 h1{
   text-transform: uppercase;
   margin-top: 200px;
@@ -35,7 +43,22 @@ h3{
 }
 
 .mb0{
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
+}
+.ml0{
+  margin-left: 0 !important;
+}
+.mr0{
+  margin-right: 0 !important;
+}
+.mt0{
+  margin-top: 0 !important;
+}
+.pl0{
+  padding-left: 0 !important;
+}
+.pr0{
+  padding-right: 0 !important;
 }
 
 .carousel.carousel-slider .carousel-fixed-item.with-indicators{
@@ -62,5 +85,5 @@ h3{
   background-image: url("../img/gameplay3.webp");
 }
 .item-4{
-  background-image: url("../img/gameplay4.jpg");
+  background-image: url("../img/gameplay4.webp");
 }
